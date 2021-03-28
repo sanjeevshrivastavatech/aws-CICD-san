@@ -3,10 +3,10 @@ terraform{
         bucket = "davoclock-aws-cicd-pipeline"
         encrypt = true
         key = "terraform.tfstate"
-        region = "us-east-1"
+        region = "us-west-2"
     }
 }
 
 provider "aws" {
-    region = "us-east-1"
+    region = "us-west-2"
 }
